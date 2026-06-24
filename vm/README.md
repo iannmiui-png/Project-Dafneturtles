@@ -37,7 +37,7 @@ ZONES = [
     [(4,4)],
 ]
 
-CELL = 10
+CELL = 
   const pgmArrays = [
     [[0,0,0],[0,0,0],[0,0,0]],
     [[3,3,3],[3,3,3],[3,3,3]],
@@ -53,16 +53,6 @@ CELL = 10
     [[3,0,3],[3,3,0],[3,3,3]],
     [[3,3,3],[0,1,0],[3,3,3]],
   ];
-
-  for (let i = 0; i < pgmArrays.length; i++) {
-    tileImages[i] = createImageFromArray(pgmArrays[i]);
-  }
-}
-
-function setup() {
-  fxpreview();
-  createCanvas(innerWidth, innerHeight);
-
   tiles[0] = new Tile(tileImages[0], ["AAA","AAA","AAA","AAA"]);
   tiles[1] = new Tile(tileImages[1], ["BBB","BBB","BBB","BBB"]);
   tiles[2] = new Tile(tileImages[2], ["BBB","BCB","BBB","BBB"]);
