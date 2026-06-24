@@ -39,7 +39,7 @@ ZONES = [
 
     
 CLASS Cell {constructor(a){this.collapsed=!1,this.options=a instanceof Array?a:Array.from({length:a},(_,i)=>i)}}
-
+CLASS Tile {WFC}
 
   const pgmArrays = [
     [[0,0,0],[0,0,0],[0,0,0]],
