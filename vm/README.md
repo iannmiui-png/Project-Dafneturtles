@@ -37,7 +37,10 @@ ZONES = [
     [(4,4)],
 ]
 
-CELL = 
+    
+CLASS Cell {constructor(a){this.collapsed=!1,this.options=a instanceof Array?a:Array.from({length:a},(_,i)=>i)}}
+
+
   const pgmArrays = [
     [[0,0,0],[0,0,0],[0,0,0]],
     [[3,3,3],[3,3,3],[3,3,3]],
