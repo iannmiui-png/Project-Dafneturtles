@@ -1,3 +1,14 @@
+<pre>// Wave Function Collapse (tiled model)
+// The Coding Train / Daniel Shiffman
+// https://thecodingtrain.com/challenges/171-wave-function-collapse
+// https://youtu.be/0zac-cDzJwA
+
+// Code from Challenge: https://editor.p5js.org/codingtrain/sketches/pLW3_PNDM
+// Corrected and Expanded: https://github.com/CodingTrain/Wave-Function-Collapse
+
+Circuit generator for dafne Lsystem scalars
+
+</pre>
 <pre>A = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0"
 
 M = [
