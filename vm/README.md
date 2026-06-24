@@ -16,14 +16,6 @@ DAFNE0 = [
     "ENFAD",
 ]
 
-def add1_cell(ch):
-    idx = A.index(ch)
-    return A[(idx + 1) % len(A)]
-
-def mul5x5_cell(ch, off):
-    idx = A.index(ch)
-    return A[(idx + off) % len(A)]
-
 # 9 zones (3Ã—3) mapped onto 5Ã—5
 ZONES = [
     [(0,0),(0,1),(1,0),(1,1)],
