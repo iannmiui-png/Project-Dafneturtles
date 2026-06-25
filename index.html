@@ -84,7 +84,7 @@ function draw_char(r, c, ch, tick){
     let base = color14_for_letter(ch);
 
     // luminance modulation: +15% mod 9
-    let lum = (tick % 27) * 0.15;
+    let lum = (tick % 1) * 0.01;
 
     let rr = Math.min(1, base[0] + lum);
     let gg = Math.min(1, base[1] + lum);
@@ -94,7 +94,7 @@ function draw_char(r, c, ch, tick){
     ctx.fillStyle = "rgba(" + 
         Math.floor(rr*255) + "," +
         Math.floor(gg*255) + "," +
-        Math.floor(bb*255) + ",0.50)";
+        Math.floor(bb*255) + ",1)";
 
     ctx.font = "24px Times New Roman";
     ctx.textAlign = "center";
